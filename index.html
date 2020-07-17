@@ -35,23 +35,24 @@
         <div id="collapsable-nav" class="collapse navbar-collapse">
            <ul id="nav-list" class="nav navbar-nav navbar-right">
             <li>
-              <a href="#">
-                About</a>
+              <a href="#" onclick="$av.loadabout();">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
             </li>
             <li>
-              <a href="#">
-              Academics</a>
+              <a href="#" onclick="$av.loadacademics();">
+                <span class="glyphicon glyphicon-education"></span><br class="hidden-xs"> Academics</a>
             </li>
             <li>
-              <a href="#" >
-              Co-curricular</a>
+              <a href="#" onclick="$av.loadcurricular();">
+                <span class="glyphicon glyphicon-music"></span><br class="hidden-xs"> Co-curricular</a>
             </li>
             <li>
-              <a href="#" >
-                Certificates</a>
+              <a href="#" onclick="$av.loadcertificates();">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Certificates</a>
             </li>
            <li>
-              <a href="#"> Contact</a>
+              <a href="#" onclick="$av.loadcontact();">
+                <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contact</a>
             </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
@@ -67,15 +68,15 @@
       <div class="row">
         <section id="linksf" class="col-sm-4">
           <span>Links:</span><br>
-          <a href="#" > About</a><br>
-          <a href="#"> Academics</a><br>
-          <a href="#"> Co-curricular</a><br>
-          <a href="#"> Certificates</a><br>
-          <a href="#"> Contact</a><br>
+          <a href="#" onclick="$av.loadabout();"> About</a><br>
+          <a href="#" onclick="$av.loadacademics();"> Academics</a><br>
+          <a href="#" onclick="$av.loadcurricular();"> Co-curricular</a><br>
+          <a href="#" onclick="$av.loadcertificates();"> Certificates</a><br>
+          <a href="#" onclick="$av.loadcontact();"> Contact</a><br>
           <hr class="vis
           ible-xs">
       </div>
-      <div class="text-center">Hope you have a great day ahead<br>-Apoorva Verma</div>
+      <div class="text-center">Hope you have a great day ahead:)<br>-Apoorva Verma</div>
     </div>
   </footer>
 
