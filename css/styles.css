@@ -17,7 +17,7 @@ body {
 }
 .navbar-brand h1 { /*name*/
   color: #951C49;
-  font-size: 1.5em;
+  font-size: 1.7em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -30,7 +30,7 @@ body {
 }
 .navbar-brand p {
   color: #000;
-  font-size: .7em;
+  font-size: 1.1em;
   margin-top: 15px;
 }
 
@@ -58,20 +58,20 @@ body {
 /* END HEADER */
 /* MAIN CONTENT*/
 
-#main-content .fh{
+#main-content #snippet .fh{
   font-family: 'Dancing Script', cursive;
   color:  #FFC0CB;
-  font-size: 1.3em;
+  font-size: 2em;
   text-align: center;
 }
-#main-content .fhh{
+#main-content #snippet .fhh{
   font-family: 'Dancing Script', cursive;
   color:  #FFC0CB;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
 }
-#main-content section{
-  font-size:1.1em;
+#main-content #snippet p{
+  font-size:1.2em;
 }
 #main-content section #snippet-img{
   box-shadow: 5px 5px 5px 5px #888888;
