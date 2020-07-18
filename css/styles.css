@@ -58,16 +58,22 @@ body {
 /* END HEADER */
 /* MAIN CONTENT*/
 
-.fh{
+#main-content .fh{
   font-family: 'Dancing Script', cursive;
   color:  #FFC0CB;
   font-size: 1.3em;
   text-align: center;
 }
-.main section{
+#main-content .fhh{
+  font-family: 'Dancing Script', cursive;
+  color:  #FFC0CB;
+  font-size: 1.2em;
+  text-align: center;
+}
+#main-content section{
   font-size:1.1em;
 }
-.main section #snippet-img{
+#main-content section #snippet-img{
   box-shadow: 5px 5px 5px 5px #888888;
 }
 
