@@ -69,12 +69,15 @@ body {
   color:  #FFC0CB;
   font-size: 1.5em;
   text-align: center;
+} 
+#main-content #snippet #itc{
+  font-style: italic;
 }
 #main-content #snippet p{
   font-size:1.2em;
 }
 #main-content section #snippet-img{
-  box-shadow: 5px 5px 5px 5px #888888;
+   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -91,12 +94,18 @@ body {
 .panel-footer div.row {
   margin-bottom: 35px;
 }
-
+.panel-footer .fh{
+font-family: 'Dancing Script', cursive;
+  color:  #FFC0CB;
+  font-weight: bold;
+  font-size:1.2em;
+}
 .linksf a {
   
   font-size: .8em;
   line-height: 1.8;
 }
+
 .panel-footer div.text-center{
    font-style: italic;
 }
@@ -116,6 +125,17 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+   /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
  
 }
 
